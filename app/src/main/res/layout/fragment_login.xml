@@ -24,12 +24,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:id="@+id/log-user"
+            android:id="@+id/log_user"
             android:drawableLeft="@drawable/img_Person"
             android:hint="User id" />
 
         <EditText
-            android:id="@+id/log-pass"
+            android:id="@+id/log_pass"
             android:layout_width="match_parent"
             android:layout_height="62dp"
             android:layout_marginTop="15dp"
@@ -40,6 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:id="@+id/log_btn"
             android:hint="LOGIN"/>
 
         <TextView
